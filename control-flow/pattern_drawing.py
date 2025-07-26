@@ -17,7 +17,8 @@ def draw_square_pattern():
 
         print(f"\nHere is your {size}x{size} square pattern:")
         print("-" * (size + 2)) # Simple border for visual appeal
-      # Use a while loop for rows
+
+        # Use a while loop for rows
         row_count = 0
         while row_count < size:
             # Inside the while loop, use a for loop to print asterisks for each column
@@ -33,3 +34,6 @@ def draw_square_pattern():
 
     except ValueError:
         print("Error: Invalid input. Please enter a whole number.")
+
+if __name__ == "__main__":
+    draw_square_pattern()
