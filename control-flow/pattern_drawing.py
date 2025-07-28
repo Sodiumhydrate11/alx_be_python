@@ -1,5 +1,5 @@
 def draw_square_pattern():
-    """
+    """"
     Prompts the user for a positive integer (size) and then prints
     a square pattern of asterisks (*) of that size using nested loops.
     """
