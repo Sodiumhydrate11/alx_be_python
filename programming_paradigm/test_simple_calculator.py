@@ -26,7 +26,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(-7, -3), -10)    # Two negative numbers
         self.assertEqual(self.calc.add(2.5, 1.5), 4.0)  # Decimal numbers
 
-    def test_subtract(self):
+    def test_subtraction(self):
         """
         Tests the subtraction method with various combinations of numbers.
         """
@@ -37,7 +37,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.subtract(-10, -5), -5)   # Negative minus negative
         self.assertEqual(self.calc.subtract(7.5, 2.5), 5.0) # Decimal numbers
 
-    def test_multiply(self):
+    def test_multiplication(self):
         """
         Tests the multiplication method with positive, negative, and zero.
         """
@@ -48,7 +48,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply(-5, -5), 25)    # Two negative numbers
         self.assertEqual(self.calc.multiply(3.0, 2.5), 7.5) # Decimal numbers
 
-    def test_divide(self):
+    def test_division(self):
         """
         Tests the division method for normal operation and division by zero.
         """
