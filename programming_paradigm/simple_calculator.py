@@ -19,15 +19,4 @@ class SimpleCalculator:
         """Return the division of a by b. Returns None if b is zero."""
         if b == 0:
             return None
-                return a / b
-        
-        if __name__ == "__main__":
-            calc = SimpleCalculator()
-            print("Add: 2 + 3 =", calc.add(2, 3))
-            print("Subtract: 5 - 2 =", calc.subtract(5, 2))
-            print("Multiply: 4 * 3 =", calc.multiply(4, 3))
-            result = calc.divide(10, 0)
-            if result is None:
-                print("Divide: 10 / 0 = Error (division by zero)")
-            else:
-                print("Divide: 10 / 0 =", result)
+                return a / b 
