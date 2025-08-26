@@ -13,7 +13,7 @@ class TestSimpleCalculator(unittest.TestCase):
 		self.assertEqual(self.calc.add(-1, 1), 0)
 
 	def test_subtraction(self):
-		"""Test the subtraction mathod."""
+		"""Test the subtraction method."""
 		self.assertEqual(self.calc.subtract(10, 5), 5)
 		self.assertEqual(self.calc.subtract(20, 5), 15)
 
@@ -30,7 +30,4 @@ class TestSimpleCalculator(unittest.TestCase):
 if __name__ == "__main__":
 	unittest.main()
 
-
-# Add more assertions to thoroughly test the add method.
-
-# Remember to write additional test methods for subtract, multiply, and divide.
+        self.assertIsNone(self.calc.divide(10, 0))
