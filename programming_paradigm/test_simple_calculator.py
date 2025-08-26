@@ -15,7 +15,7 @@ class TestSimpleCalculator(unittest.TestCase):
         # Changed 'self.calculator' to 'self.calc' to match checker's expectation
         self.calc = SimpleCalculator()
 
-    def test_add(self):
+    def test_addition(self): # Renamed from test_add to test_addition
         """
         Tests the addition method with positive, negative, and zero values.
         """
